@@ -1,0 +1,133 @@
+.tab-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.tab1-container {
+  display: flex;
+}
+
+.tab1-btn {
+  border: none;
+  background-color: #fff;
+  color: #8a8a8a;
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 20px;
+  padding: 10px;
+  border-bottom: 1px solid #E0E0E0;;
+}
+
+.tab2-btn {
+  border: none;
+  border-radius: 4px;
+  background: #edeef0;
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 20px;
+  padding: 10px;
+  margin-left: 10rem ;
+}
+
+.tab3-btn {
+  border: none;
+  border-radius: 4px;
+  background: #2f6ce5;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.card-img {
+  object-fit: cover;
+}
+
+.card-category {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 20px;
+}
+
+.card-heading {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 134.167%;
+  width: 600px;
+  
+  margin: 10px 0;
+  margin-inline-start: 20px;
+}
+
+.card-para {
+  color: #5c5c5c;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.167%; /* 25.492px */
+  width: 652px;
+  margin-left: 20px;
+}
+
+.username{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.card-username {
+  color: #000;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 12px;
+}
+
+.views {
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card-views {
+  color: #525252;
+  text-align: right;
+  font-family: IBM Plex Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 40px;
+}
